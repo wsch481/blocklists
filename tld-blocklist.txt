@@ -1,0 +1,95 @@
+[Adblock Plus]
+! Title: Custom abused-TLD blocklist for Technitium DNS Server
+! Generated: 2026-10-31
+! Blocks the whole TLD and everything under it. Per-site exceptions: add the exact
+! domain to Technitium's Allowed tab (allowed zones override blocked entries).
+! NEVER enable: cc (your home zone theabode.cc) or link (hlbs.link).
+! This is a short curated starter list, not a copy of HaGeZi's spam-tlds list;
+! keep subscribing to HaGeZi for the full set (incl. non-Latin/punycode TLDs).
+! Active TLD count: 47
+
+! === TIER 1 - heavily abused gTLDs with little mainstream use (ACTIVE) ===
+! Cheap new gTLDs repeatedly flagged by Spamhaus/Netcraft-style abuse statistics.
+||top^
+||xyz^
+||icu^
+||cyou^
+||sbs^
+||cfd^
+||bond^
+||buzz^
+||click^
+||rest^
+||monster^
+||quest^
+||cam^
+||autos^
+||boats^
+||yachts^
+||beauty^
+||skin^
+||makeup^
+||hair^
+||bid^
+||loan^
+||loans^
+||kim^
+||faith^
+||win^
+||stream^
+||download^
+||men^
+||review^
+||trade^
+||date^
+||racing^
+||party^
+||accountant^
+||science^
+||cricket^
+||gdn^
+||zip^
+||mov^
+
+! === TIER 1b - free Freenom ccTLDs, long associated with throwaway abuse (ACTIVE) ===
+! Registrations ended but existing domains still resolve.
+||tk^
+||ml^
+||ga^
+||cf^
+||gq^
+
+! === YOUR PICKS - country-code TLDs you asked for (ACTIVE) ===
+! Judgment calls: both have legitimate uses. .im also covers spot.im (ad selling + comments widgets).
+||cn^
+||im^
+
+! === TIER 2 - abused but with real legitimate use (COMMENTED OUT - uncomment to enable) ===
+! Blocking these will break some real sites. Review Query Logs first.
+! ||shop^
+||site^
+! ||online^
+! ||store^
+! ||live^
+||work^
+||life^
+! ||tech^
+||club^
+! ||space^
+||website^
+||fun^
+||vip^
+||lol^
+||pics^
+||bar^
+||mom^
+||uno^
+||wang^
+
+! === TIER 3 - other country-code TLDs (COMMENTED OUT - uncomment to enable) ===
+! Geopolitical/regional choice; many legitimate sites and devices use these.
+||ru^
+||su^
+||pw^
+||ws^
+||to^
